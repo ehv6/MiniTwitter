@@ -1,5 +1,6 @@
 package com.example.twitterapp.controller;
 
+import com.example.twitterapp.config.CustomUserDetails;
 import com.example.twitterapp.model.Post;
 import com.example.twitterapp.repository.PostRepository;
 import com.example.twitterapp.service.PostService;
@@ -27,6 +28,7 @@ public class PostController {
     {
         List<Post> posts = postService.findAll();
         model.addAttribute("post", posts);
+
         return "home";
     }
 
@@ -34,12 +36,19 @@ public class PostController {
     public String showAddPostForm(Model model)
     {
         model.addAttribute("post", new Post());
+
         return "add";
     }
 
     @PostMapping("/add")
     public String addPost(@ModelAttribute Post post)
     {
-        Authentication auth = SecurityContextHolder.getContext().getAuthentication()
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        CustomUserDetails user = (CustomUserDetails) auth.getPrincipal();
+        var existingUser = userService.findByUsername(user.getUsername());
+        post.setUser(existingUser);
+        postService.save(post);
+
+        return "redirect:/";
     }
 }
