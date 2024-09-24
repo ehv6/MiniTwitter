@@ -7,13 +7,14 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
-
 public class UserServiceImpl implements UserService {
 
     @Autowired
-    PasswordEncoder passwordEncoder;
+    private PasswordEncoder passwordEncoder;
 
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
+
+    // Constructor-based injection for UserRepository
     public UserServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
@@ -25,8 +26,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User save(User userDto) {
+        // Encrypt the user's password before saving
         User user = new User(userDto.getUsername(), passwordEncoder.encode(userDto.getPassword()));
-
         return userRepository.save(user);
     }
 }

@@ -26,31 +26,25 @@ public class PostController {
     }
 
     @GetMapping("/")
-    public String home(Model model)
-    {
-        List<Post> posts = postService.findAll();
-        model.addAttribute("post", posts);
-
+    public String home(Model model) {
+        List<Post> posts = postService.findAll(); // Fetch all posts
+        model.addAttribute("posts", posts); // Add posts to the model
         return "home";
     }
 
     @GetMapping("/add")
-    public String showAddPostForm(Model model)
-    {
-        model.addAttribute("post", new Post());
-
+    public String showAddPostForm(Model model) {
+        model.addAttribute("post", new Post()); // Prepare an empty post for the form
         return "add";
     }
 
     @PostMapping("/add")
-    public String addPost(@ModelAttribute Post post)
-    {
+    public String addPost(@ModelAttribute Post post) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         CustomUserDetails user = (CustomUserDetails) auth.getPrincipal();
-        var existingUser = userService.findByUsername(user.getUsername());
-        post.setUser(existingUser);
-        postService.save(post);
-
+        var existingUser = userService.findByUsername(user.getUsername()); // Find current user
+        post.setUser(existingUser); // Associate post with the user
+        postService.save(post); // Save the post
         return "redirect:/";
     }
 }

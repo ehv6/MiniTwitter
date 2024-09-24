@@ -6,6 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="d2c1d8eb-4483-444e-b9c9-e0da786c8c9a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/config/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/config/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/config/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/config/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/twitterapp/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/config/CustomUserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/config/CustomUserDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/config/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/config/CustomUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/model/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/service/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/twitterapp/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/twitterapp/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +44,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -49,12 +74,15 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/twitterapp" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/twitterapp/config" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/images" />
     </key>
   </component>
@@ -88,10 +116,30 @@
       <workItem from="1727178988923" duration="402000" />
       <workItem from="1727179481811" duration="803000" />
       <workItem from="1727180301337" duration="23000" />
+      <workItem from="1727180517501" duration="620000" />
+      <workItem from="1727181140454" duration="1000" />
+      <workItem from="1727181146544" duration="682000" />
+      <workItem from="1727181839138" duration="327000" />
+      <workItem from="1727182178564" duration="217000" />
+      <workItem from="1727182400921" duration="131000" />
+      <workItem from="1727182912350" duration="636000" />
+      <workItem from="1727183554965" duration="1331000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/twitterapp/config/CustomUserDetails.java</url>
+          <line>14</line>
+          <properties field="password" class="com.example.twitterapp.config.CustomUserDetails" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
