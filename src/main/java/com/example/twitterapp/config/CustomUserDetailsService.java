@@ -1,5 +1,6 @@
 package com.example.twitterapp.config;
 
+import com.example.twitterapp.model.User;
 import com.example.twitterapp.repository.UserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
