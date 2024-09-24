@@ -25,7 +25,7 @@ public class CustomUserDetailsService implements UserDetailsService {
         if (user == null) {
             throw new UsernameNotFoundException("Username or Password is incorrect");
         }
-        return new CustomUserDetails(user.getUsername(), user.getPassword(), authorities())
+        return new CustomUserDetails(user.getUsername(), user.getPassword(), authorities());
     }
 
     public Collection<? extends GrantedAuthority> authorities(){

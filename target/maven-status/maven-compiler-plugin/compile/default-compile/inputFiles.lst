@@ -1,0 +1,13 @@
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/TwitterAppApplication.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/config/CustomUserDetails.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/config/CustomUserDetailsService.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/config/SecurityConfig.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/controller/PostController.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/controller/UserController.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/model/Post.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/model/User.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/repository/PostRepository.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/repository/UserRepository.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/service/PostService.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/service/UserService.java
+/Users/tushigbattulga/Desktop/MiniTwitter/MiniTwitter/src/main/java/com/example/twitterapp/service/UserServiceImpl.java
