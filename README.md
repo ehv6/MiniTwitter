@@ -24,7 +24,7 @@ A Twitter-like application built with Spring Boot that allows users to register,
    ```bash
    mvn spring-boot:run
 
-##Usage
+## Usage
 - Once the project has begun running, head over to http://localhost:8080/login for the user interface.
 - From here, you can create an account and log in.
 - After logging in, you are able to create and view posts.
