@@ -1,25 +1,47 @@
 # MiniTwitter
 
-MiniTwitter Application
+A Twitter-like application built with Spring Boot that allows users to register, log in, and create posts.
 
-Objective
+## Features
+- User Registration and Authentication: Users can register and log in with encrypted passwords.
+- Post Management: Users can create, view, and manage their posts.
+- Secure Password Handling: Passwords are securely encrypted using Spring Security.
 
-This is a Twitter-like application built with Spring Boot. It allows users to register, log in, and create posts. The application features user authentication and secure password handling. Skeleton framework was used for the HTML portion of the project.
+## Requirements
+- Java Development Kit (JDK) 8 or later
+- Dependencies managed by Maven
+- MySQL Database
 
-Features
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd MiniTwitter
+2. Build the project: If you're using Maven, you can build the project by running:
+   ```bash
+   mvn clean install
+3. Run the application: You can run the application using:
+   ```bash
+   mvn spring-boot:run
 
-User Registration and Authentication: Users can register and log in with encrypted passwords.
-Post Management: Users can create, view, and manage their posts.
-Secure Password Handling: Passwords are securely encrypted using Spring Security.
+##Usage
+- Once the project has begun running, head over to http://localhost:8080/login for the user interface.
+- From here, you can create an account and log in.
+- After logging in, you are able to create and view posts.
+- You can log off after finishing.
 
-Technologies Used
-
+## Technologies Used
 Backend Framework: Spring Boot
 Security: Spring Security
 Database: MySQL
 View Templates: Thymeleaf
 Version Control: Git/GitHub
 
-How To Use
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
-Run the application either through the terminal or IDE. Once the project has begun running, head over to http://localhost:8080/login for the user interface. From here you can create an account and login. After logging in, you are able to create and view posts. After you finish, you can log off as well.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+Thanks to the Spring Boot community and all contributors for their support in making this project possible.
